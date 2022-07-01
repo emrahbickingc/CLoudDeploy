@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: getting-started
+  namespace: test
+spec:
+  containers:
+  - name: echoserver
+    image: emrahtestimage
