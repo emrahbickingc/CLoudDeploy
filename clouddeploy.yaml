@@ -20,7 +20,7 @@ gke:
  cluster:  projects/rbbt-350607/locations/europe-west1-b/clusters/rbbt-cls
 executionConfigs:
 - defaultPool:
-    serviceAccount: gke-clouddeploy-sa-rbbt-350607@rbbt-350607.iam.gserviceaccount.com
+    serviceAccount: 662318006874-compute@developer.gserviceaccount.com
   usages:
   - RENDER 
   - DEPLOY   
