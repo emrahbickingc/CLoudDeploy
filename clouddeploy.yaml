@@ -19,8 +19,6 @@ description: development environment
 gke:
  cluster:  projects/rbbt-350607/locations/europe-west1-b/clusters/rbbt-cls
 executionConfigs:
-- defaultPool:
-    serviceAccount: 662318006874-compute@developer.gserviceaccount.com
-  usages:
+- usages:
   - RENDER 
   - DEPLOY   
