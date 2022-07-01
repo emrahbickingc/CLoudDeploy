@@ -4,7 +4,7 @@ metadata:
   name: emrahtest
 build:
   artifacts:
-  - image: gcr.io/$PROJECT_ID/emrahtestimage
+  - image: gcr.io/rbbt-350607/emrahtestimage
     docker:
       dockerfile: Dockerfile
 deploy:

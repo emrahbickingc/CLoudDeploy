@@ -17,10 +17,10 @@ metadata:
  name: qsdev
 description: development environment
 gke:
- cluster:  projects/$PROJECT_ID/locations/europe-west1-b/clusters/rbbt-cls
+ cluster:  projects/rbbt-350607/locations/europe-west1-b/clusters/rbbt-cls
 executionConfigs:
 - defaultPool:
-    serviceAccount: gke-clouddeploy-sa@$PROJECT_ID.iam.gserviceaccount.com
+    serviceAccount: gke-clouddeploy-sa@rbbt-350607.iam.gserviceaccount.com
   usages:
   - RENDER 
   - DEPLOY   
